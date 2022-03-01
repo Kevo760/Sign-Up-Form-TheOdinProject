@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Odin Sign Up</title>
+</head>
+<body>
+    <div class="main">
+        <div class="left-side">
+            <div class="odin-logo">
+                <img src="./images/odin.png" alt="odin logo"><p>ODIN</p>
+            </div>
+            
+            <p class="credit">Photo by <a href="https://unsplash.com/@iangvalerio">Ian Valerio</a> on <a href="https://unsplash.com/photos/CAFq0pv9HjY">Unsplash</a></p>
+        </div>
+
+        <div class="sign-up">
+
+            <div class="main-text">
+                <b>This is not a real online service! You know you need something like this in your life
+                    to help you realize your deepest dreams. Sign up <i>now</i> to get started.
+                </b>
+    
+                <b class="you-know">You <i>know</i> you want to.</b>
+            </div>
+
+
+            <form action="#" method="get">
+                <b>Let's do this!</b>
+            
+            <div class="form-section">
+
+                <div class="first sec">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" id="first-name">
+                </div>
+
+                <div class="last sec">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" id="last-name">
+                </div>
+
+                <div class="email sec">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email">
+                </div>
+
+                <div class="tel sec">
+                    <label for="tel">PHONE NUMBER</label>
+                    <input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Please enter a valid phone number, example: 123-123-1234">
+                </div>
+
+                <div class="pw sec">
+                    <label for="user_password">PASSWORD</label>
+                    <input type="password" id="user_password" name="password">
+                    <p class="error"></p>
+                </div>
+
+                <div class="pw-confirm sec">
+                    <label for="confirm-pw">PASSWORD</label>
+                    <input type="password" id="confirm-pw" name="password">
+                </div>
+
+                </div>
+
+            </form>
+
+            <button type="submit">Create Account</button>
+            <span class="have-account">Already have an account? <a href="#">Log in</a></span>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

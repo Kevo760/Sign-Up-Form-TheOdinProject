@@ -1,0 +1,184 @@
+html {
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* ========================= LEFT SIDE ========================== */
+
+.left-side {
+    background-image: url('https://images.unsplash.com/photo-1519638399535-1b036603ac77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 400px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.odin-logo img {
+    width: 120px;
+    height: 150px;
+    padding: 1rem;
+    display: block;
+}
+
+.odin-logo  {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0,0%,0%, .4);
+    height: 150px;
+    margin-top: 8em;
+}
+
+.odin-logo p {
+    display: inline-block;
+    margin-top: 2rem;
+    font-family: Norse-bold;
+    font-size: 5rem;
+    color: white;
+}
+
+.credit {
+    position: absolute;
+    bottom: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    left: 0;
+    right: 0;
+    width: 260px;
+    height: 40px;
+    color: white;
+    text-decoration: inherit;
+}
+a, a:hover, a:focus, a:active {
+    color: inherit;
+}
+
+/* ========================= LEFT SIDE ========================== */
+
+/* ========================= SIGN UP ============================ */
+
+.main-text {
+    display: block;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    width: 580px;
+    height: 180px;
+}
+
+.you-know {
+    display: block;
+    margin-top: 2rem;
+}
+
+.sign-up b {
+font-size: 1.2rem;
+}
+
+
+.sign-up {
+    margin-left: 400px;
+    background-color: hsl(0, 0%, 95%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+form {
+    background-color: white;
+    padding: 1rem 2rem 2rem 2rem;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    height: 300px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+    font-size: .8rem;
+}
+
+form .sec {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 1em;
+    margin-right: 1em;
+}
+
+
+form b {
+    display: block;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+input {
+    padding: .2em;
+    border: #E5E7EB solid 1px;
+    border-radius: .2em;
+}
+
+input:focus {
+    outline: none !important;
+    border-color: blue;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+
+
+button {
+    border: none;
+    background-color: hsl(92, 20%, 35%);
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: .5rem;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+button:hover {
+background-color: hsl(92, 20%, 55%);
+}
+
+button:active {
+    background-color: hsl(92, 20%, 35%);
+}
+
+.have-account {
+    display: block;
+    padding: 2rem;
+}
+
+.have-account a {
+    text-decoration: none;
+    color: hsl(92, 20%, 35%);
+    font-weight: bold;
+}
+
+
+/* ========================= SIGN UP ============================ */
