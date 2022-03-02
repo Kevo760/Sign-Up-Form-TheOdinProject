@@ -28,7 +28,7 @@
             </div>
 
 
-            <form action="#" method="get">
+            <form action="#" method="get" id="form1">
                 <b>Let's do this!</b>
             
             <div class="form-section">
@@ -55,20 +55,20 @@
 
                 <div class="pw sec">
                     <label for="user_password">PASSWORD</label>
-                    <input type="password" id="user_password" name="password">
+                    <input type="password" id="user-password" name="password" required>
                     <p class="error"></p>
                 </div>
 
                 <div class="pw-confirm sec">
-                    <label for="confirm-pw">PASSWORD</label>
-                    <input type="password" id="confirm-pw" name="password">
+                    <label for="confirm-pw">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm-pw" name="password" required>
                 </div>
 
                 </div>
 
             </form>
 
-            <button type="submit">Create Account</button>
+            <button class="btn" type="button" form="form1">Create Account</button>
             <span class="have-account">Already have an account? <a href="#">Log in</a></span>
         </div>
     </div>
